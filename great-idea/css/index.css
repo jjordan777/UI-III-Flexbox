@@ -62,49 +62,27 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-.navigation {
-	display: flex;
-	justify-content: space-evenly;
-	margin-top: 30px;
-    /*padding: 0px;*/
-	
-	
-}
-.navigation a {
-	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
-	margin: 20px;
-	padding: 0px;
-
-}
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-header {
-	display: flex;
-	justify-content: space-around;
-	font-size: 75px;
+.main {
+	width: 850px;
+	margin: auto;
+	background: white;
 	padding: 20px;
-	margin: 10px;
-}
-
-.top-content {
 	display: flex;
-	justify-content: space-around;
-	
+	flex-direction: column;
+	align-content: center;
+	padding-bottom: 10px;
 }
-
-
-}
-
-
- .middle-container {
+.main .navbar {
 	display: flex;
-	justify-content: space-around;
 	flex-direction: row;
-	
-	
+	position: fixed;
+	z-index: 1;
+	width: 800px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 75px;
+	height: 50px;
+	justify-content: space-between;
+	align-items: center;
+	background: white;
 }
-
-	
-	
